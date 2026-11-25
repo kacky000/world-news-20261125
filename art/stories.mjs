@@ -71,6 +71,13 @@ export const BRIEFS = [
   B('Asia', 'sport', 'FORECAST', 'AFC', 'ACL Elite: Gamba Osaka v Port FC', 34.8, 135.5),
   B('Asia', 'sport', 'FORECAST', 'CricketTimes', 'Women’s T20I: Malaysia v China, Kuala Lumpur', 3.1, 101.5, { t: '02:00', tl: 'KL T20I' }),
   B('Oceania', 'sport', 'FORECAST', 'CA', 'WBBL: Melbourne Renegades v Brisbane Heat', -37.8, 145, { t: '04:40', tl: 'WBBL' }),
+  B('Asia', 'diplomacy', 'REPORTED', 'Daily Star', 'UN Security Council meets on ICJ Rohingya ruling', 20.1, 93),
+  B('Europe', 'sport', 'FORECAST', 'EFE', 'Davis Cup Final 8: Italy v South Korea, Bologna', 44.5, 11.3, { t: '15:00', tl: 'Davis Cup' }),
+  B('Middle East', 'sport', 'FORECAST', 'FIFA', 'U-17 World Cup, Qatar: Ecuador v Korea, Panama v Egypt', 25.3, 51.4),
+  B('Africa', 'diplomacy', 'FORECAST', 'EFE', 'Germany’s Steinmeier meets Ruto in Nairobi', -1.29, 36.8),
+  B('Latin America', 'politics', 'FORECAST', 'EFE', 'Machado meets students at Venezuela’s UCV', 10.5, -66.9),
+  B('Latin America', 'culture', 'FORECAST', 'EFE', 'Peru’s scissors dancers gather at Congress', -12.05, -77),
+  B('Latin America', 'energy', 'FORECAST', 'EFE', 'Mercosur–Chile gas project closes in Montevideo', -34.9, -56.2),
   B('Middle East', 'sport', 'FORECAST', 'ILT20', 'ILT20: Dubai Capitals v Desert Vipers', 25.1, 55.2, { t: '14:30', tl: 'ILT20' }),
 ];
 
@@ -86,4 +93,4 @@ export const DATECHECK = [
   { when: '28 Nov', what: 'Taiwan local vote; Libertadores final' },
 ];
 
-export const SOURCES = 'Xinhua, CMSA, Tasmania Fire Service, ABC, ABS, BEA, US Labor Dept, Census Bureau, Federal Reserve, NYSE, EU agenda, European Parliament, UEFA, SAWS, UN Women, ICC, AFC, Japan Times, NBA, NHL · each item checked against a report or calendar dated 25 Nov 2026 UTC';
+export const SOURCES = 'Xinhua, CMSA, Tasmania Fire Service, ABC, ABS, BEA, US Labor Dept, Census Bureau, Federal Reserve, NYSE, EU agenda, European Parliament, UEFA, SAWS, UN Women, ICC, AFC, Japan Times, PNA, Daily Star, EFE, FIFA, NBA, NHL · each item checked against a report or calendar dated 25 Nov 2026 UTC';

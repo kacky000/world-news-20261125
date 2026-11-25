@@ -155,7 +155,7 @@ function cards() {
 // ── Numbered briefs ─────────────────────────────────────────
 function briefs() {
   const out = [];
-  const x0 = 372, y0 = 728, colW = 316, rowH = 15.6;
+  const x0 = 372, y0 = 726, colW = 316, rowH = Math.min(15.6, 208 / Math.ceil(BRIEFS.length / 2));
   const per = Math.ceil(BRIEFS.length / 2);
   out.push(text(x0, 722, 'ALSO TODAY', { size: 12.5, weight: 700, kind: 'head', spacing: 1.5 }));
   out.push(text(x0 + 92, 722, `numbered briefs ${BRIEFS[0].n}–${BRIEFS.at(-1).n} · tag · source`, { size: 10, fill: 'var(--mute)' }));
