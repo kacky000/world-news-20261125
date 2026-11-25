@@ -64,6 +64,8 @@ export const BRIEFS = [
   B('Europe', 'sport', 'FORECAST', 'UEFA', 'UCL: Shakhtar Donetsk v Fenerbahçe', 50.1, 19.9),
   B('Europe', 'culture', 'FORECAST', 'EP', 'LUX Audience Film Award 2027 shortlist', 48.6, 7.77),
   B('Europe', 'disaster', 'FORECAST', 'EU agenda', 'Disaster Resilience Days, Munich, day 2', 48.1, 11.6),
+  B('Asia', 'defence', 'OFFICIAL', 'PNA', 'Marcos: Philippine Navy to get new ships, submarines', 14.6, 121),
+  B('Asia', 'disaster', 'OFFICIAL', 'PNA', 'Marcos orders aid to 23,000 flooded Maguindanao homes', 6.95, 124.4),
   B('Asia', 'space', 'FORECAST', 'CMSA', 'Shenzhou-24 set to dock at Tianhe forward port', 41, 100.3),
   B('Asia', 'sport', 'FORECAST', 'AFC', 'ACL Elite: Kashima Antlers v Jeonbuk', 36, 140.6),
   B('Asia', 'sport', 'FORECAST', 'AFC', 'ACL Elite: Gamba Osaka v Port FC', 34.8, 135.5),
