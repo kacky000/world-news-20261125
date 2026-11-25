@@ -12,7 +12,7 @@ export const DAY = {
 const S = (region, place, field, sure, src, head, text, lat, lon, more = {}) => ({ region, place, field, sure, src, head, text, lat, lon, ...more });
 
 export const LEADS = [
-  S('Asia', 'Jiuquan, China', 'space', 'OFFICIAL', 'Xinhua / CMSA',
+  S('Asia', 'Jiuquan, China', 'space', 'CONFIRMED', 'Xinhua / CMSA',
     'Shenzhou-24 lifts off carrying China’s first foreign astronaut',
     'A Long March-2F rose from Jiuquan with Pakistan’s Muhammad Zeeshan Ali beside Tang Hongbo and Wu Yi: the 41st crewed Chinese mission, bound for Tiangong.',
     40.96, 100.29, { t: '00:18', tl: 'Shenzhou-24 up', pic: { main: 'rocket', side: ['globe', 'shield'], big: '41st', bigNote: 'crewed mission' } }),
@@ -64,6 +64,7 @@ export const BRIEFS = [
   B('Europe', 'sport', 'FORECAST', 'UEFA', 'UCL: Shakhtar Donetsk v Fenerbahçe', 50.1, 19.9),
   B('Europe', 'culture', 'FORECAST', 'EP', 'LUX Audience Film Award 2027 shortlist', 48.6, 7.77),
   B('Europe', 'disaster', 'FORECAST', 'EU agenda', 'Disaster Resilience Days, Munich, day 2', 48.1, 11.6),
+  B('Asia', 'space', 'FORECAST', 'CMSA', 'Shenzhou-24 set to dock at Tianhe forward port', 41, 100.3),
   B('Asia', 'sport', 'FORECAST', 'AFC', 'ACL Elite: Kashima Antlers v Jeonbuk', 36, 140.6),
   B('Asia', 'sport', 'FORECAST', 'AFC', 'ACL Elite: Gamba Osaka v Port FC', 34.8, 135.5),
   B('Asia', 'sport', 'FORECAST', 'CricketTimes', 'Women’s T20I: Malaysia v China, Kuala Lumpur', 3.1, 101.5, { t: '02:00', tl: 'KL T20I' }),
